@@ -1,0 +1,20 @@
+
+<div class="col-lg-4 .col-sm-6 mb-3">
+    <div class="product_card">
+        <div class="product_image">
+            <a href="#"><img src="/media/{{ o.image }}" alt=""></a>
+        </div>
+        <div class="product_details">
+            <h1><a href="/product/{{ o.id }}">{{ o.name_product }}</a></h1>
+            <h5><a href="#">{{ o.category_name }}</a></h5>
+            <p>
+                {{ o.description }}
+            </p>
+        </div>
+        <div class="product_bottom-details d-flex justify-content-between">
+            <div class="product_price">
+                <small>$ {{ o.unit_price }}</small>
+            </div>
+            </div>
+        </div>
+    </div>
